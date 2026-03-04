@@ -25,7 +25,7 @@
     "bootstrap": "5.3.8",
     "cross-env": "^7.0.3",
     "dotenv": "16.4.7",
-    "formIoBuilder": "link:..\\formio-util",
+    "formIoBuilder": "npm:@owaisali122/kolea-cms-formio-builder@^2.0.0",
     "graphql": "^16.8.1",
     "next": "15.4.11",
     "payload": "3.78.0",
