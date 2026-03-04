@@ -1,0 +1,37 @@
+.wrapper {
+  width: 100%;
+  min-height: 400px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.select {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--theme-elevation-150, #ccc);
+}
+
+.builder {
+  min-height: 360px;
+}
+
+.loading {
+  padding: 1rem;
+  color: var(--theme-elevation-700, #666);
+}
+
+.error {
+  padding: 1rem;
+  background: var(--theme-error-50, #fef2f2);
+  color: var(--theme-error-500, #b91c1c);
+  border-radius: 4px;
+}
